@@ -131,23 +131,14 @@ The diagram above shows that I have randomly generated some dataset(non-normal d
 
 ## Case Study: Are the graduates’ salaries from a certain university significantly higher than the national average salary of $50,000?
 
-<div style="
-  background-color: #d9edf7;
-  color: #31708f;
-  border: 1px solid #bce8f1;
-  padding: 20px 20px 16px 20px;  /* smaller bottom padding */
-  border-radius: 6px;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  line-height: 1.6;
-  font-size: 16px;
-">
-
-  <strong>We will investigate</strong> <em>“Are the graduates’ salaries from a certain university significantly higher than the national average salary of $50,000?”</em><br>
-
-  I observed that the sample mean salary is <strong>$51,018.95</strong>, which seems higher than the national average. But could this just be a coincidence?<br>
-
-  <strong>In other words:</strong> Is this difference statistically significant?
-</div>
+> **We will investigate:**  
+> *Are the graduates’ salaries from a certain university significantly higher than the national average salary of $50,000?*
+>
+> The observed **sample mean salary is $51,018.95**, which appears to be higher than the national average.  
+> But could this just be due to random chance?
+>
+> **In other words:**  
+> Is this difference *statistically significant*?
 
 ### Test Statistic
 
@@ -174,35 +165,22 @@ Where:
     <img src="./images/t-distribution.png" alt="hypothesis" />
 </div>
 
-<div style="
-  background-color: #f7faff;
-  border: 1px solid #cce5ff;
-  padding: 20px;
-  border-radius: 8px;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  line-height: 1.6;
-  font-size: 16px;
-  color: #004085;
-">
-
-  <p><strong>In the graph above:</strong></p>
-
-  <ul>
-    <li>On the <strong>left-hand side</strong>, we see the <strong>null hypothesis distribution</strong> of sample means, assumed from the Central Limit Theorem. This is centered at the null mean of <strong>$50,000</strong>.</li>
-    <li>A red dashed line marks the <strong>observed sample mean</strong> (e.g., <strong>$51,018.95</strong>).</li>
-    <li>On the <strong>right-hand side</strong>, we see the <strong>standardized t-distribution</strong> corresponding to the left plot:
-      <ul>
-        <li>The center at <strong>t = 0</strong> maps to the null hypothesis mean (<strong>$50,000</strong>).</li>
-        <li>The red dashed line at <strong>t = 0.89</strong> is calculated using the t-test formula:</li>
-      </ul>
-      <div style="background-color: #fff; padding: 10px; border: 1px solid #dee2e6; border-radius: 5px; margin: 10px 0; font-family: monospace;">
-        t = (𝑥̄ − μ₀) / (s / √n)
-      </div>
-      <p>This t-value corresponds to the observed sample mean of <strong>$51,018.95</strong>.</p>
-    </li>
-  </ul>
-
-</div>
+> In the Graph Above:
+>
+> - On the **left-hand side**, we see the **null hypothesis distribution** of sample means, assumed from the Central Limit Theorem.  
+>   This is centered at the null mean of **$50,000**.
+>
+> - A red dashed line marks the **observed sample mean** (e.g., **$51,018.95**).
+>
+> - On the **right-hand side**, we see the **standardized t-distribution** corresponding to the left plot:
+>   - The center at **t = 0** maps to the null hypothesis mean (**$50,000**).
+>   - The red dashed line at **t = 0.89** is calculated using the t-test formula:
+>
+>     ```
+>     t = (𝑥̄ − μ₀) / (s / √n)
+>     ```
+>
+>   - This t-value corresponds to the observed sample mean of **$51,018.95**.
 
 It's important to note that the t-distribution is **not created by plugging raw data values one-by-one into the formula**.
 
@@ -341,27 +319,13 @@ This gives you the t-value such that only α (e.g., 5%) of the area lies to its 
     <img src="./images/critical-value.png" alt="p-value illustration" width="70%" />
 </div>
 
-<div style="
-  background-color: #f0f8ff;
-  border: 1px solid #b3d7ff;
-  padding: 20px;
-  border-radius: 6px;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #004080;
-">
-
-  <strong>Interpretation:</strong><br>
-
-  In our example, the calculated <strong>t-value is 0.89</strong>, which is 
-  <strong>less than the critical value of 1.71</strong>.<br>
-  The corresponding <strong>p-value is 0.192</strong>, which is 
-  <strong>greater than the significance level of 0.05</strong>.<br>
-
-  Therefore, we <strong>fail to reject the null hypothesis</strong>.<br>
-  This means we <strong>do not have enough evidence</strong> to conclude that 
-  the graduates’ salaries from this university are 
-  <strong>significantly higher</strong> than the national average salary of 
-  <strong>$50,000</strong>.
-</div>
+> Interpretation
+>
+> In our example:
+>
+> - The calculated **t-value is 0.89**, which is **less than** the critical value of **1.71**.
+> - The corresponding **p-value is 0.192**, which is **greater than** the significance level of **0.05**.
+>
+> **Conclusion**:  
+> We **fail to reject the null hypothesis**.  
+> This means we **do not have enough evidence** to conclude that the graduates’ salaries from this university are **significantly higher** than the national average salary of **$50,000**.
