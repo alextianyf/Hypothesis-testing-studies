@@ -127,8 +127,6 @@ Each subplot below represents one experiment.
     <img src="./images/CLT-samples.png" alt="hypothesis" />
 </div>
 
-The diagram above shows that I have randomly generated some dataset(non-normal distribution). I am taking 30 samples each time and calculate the mean, then repeat sampling 500 times, I will draw a plot of mean collect. I repeat this experiment 10 times. you can obserse the 10 experiments shows the similar mean around 1, and they all look alike normal distribution.
-
 ## Case Study: Are the graduates’ salaries from a certain university significantly higher than the national average salary of $50,000?
 
 > **We will investigate:**  
