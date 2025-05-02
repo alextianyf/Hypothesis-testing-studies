@@ -217,8 +217,6 @@ In hypothesis testing, we're not interested in how spread out the individual dat
 That's why we standardize using **standard error**, not standard deviation.  
 It allows us to compare our observed sample mean to a theoretical distribution of sample means under the null hypothesis.
 
-Absolutely! Here’s a cleaned-up and visually structured version of your section using Markdown, suitable for documentation, teaching, or presentation purposes:
-
 ---
 
 ### How Do We Get from t-value to p-value?
