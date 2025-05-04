@@ -29,7 +29,7 @@ The materials are designed for:
 │   └── 02-single-double-tail-images.ipynb
 ├── 01-hypothesis-testing.md              # Written notes on hypothesis testing (main discussion)
 ├── 02-single-double-tail.md              # Written notes on tail types (main discussion)
-├── LICENSE                               # Project license (MIT)
+├── LICENSE                               # Project license (BY-NC 4.0)
 ├── requirements.txt                      # Minimal dependencies needed to run the notebook
 └── README.md                             # Project overview (you are here)
 ```
