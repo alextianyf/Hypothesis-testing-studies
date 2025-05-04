@@ -80,8 +80,6 @@ You are free to use and adapt the materials for **non-commercial** purposes, but
 
 See the full license text in the [LICENSE](./LICENSE) file.
 
-⸻
-
 ## Author
 
 Alex Tian
