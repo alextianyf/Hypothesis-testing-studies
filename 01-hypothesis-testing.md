@@ -1,7 +1,5 @@
 # Hypothesis Test
 
-Table of Contents
-
 - [Hypothesis Test](#hypothesis-test)
   - [What is a Hypothesis Test?](#what-is-a-hypothesis-test)
     - [Example:](#example)
